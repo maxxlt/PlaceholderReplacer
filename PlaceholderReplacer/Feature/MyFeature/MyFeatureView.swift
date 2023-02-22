@@ -111,8 +111,8 @@ class MyFeatureView: UIView {
     private lazy var generateImageButton: UIButton = {
         let button = UIButton()
         button.setTitle("Generate Image", for: .normal)
-        button.setTitleColor(.cyan, for: .normal)
-        button.setTitleColor(.cyan.withAlphaComponent(0.5), for: .highlighted)
+        button.setTitleColor(UIColor.cyan, for: .normal)
+        button.setTitleColor(UIColor.cyan.withAlphaComponent(0.5), for: .highlighted)
         
         button.addTarget(
             self,
